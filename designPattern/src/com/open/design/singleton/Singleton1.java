@@ -1,7 +1,7 @@
 package com.open.design.singleton;
 
 /**
- * 懒汉方式
+ * 饿汉式
  * @author Administrator
  * 
  */

@@ -1,7 +1,7 @@
 package com.open.design.singleton;
 
 /**
- * 饿汉式 简洁版（在多线程中效率低）
+ *  懒汉式方式2
  * @author Administrator
  *
  */
