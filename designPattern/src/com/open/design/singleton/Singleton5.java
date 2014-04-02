@@ -1,7 +1,7 @@
 package com.open.design.singleton;
 
 /**
- * 静态初始化。
+ * 属于饿汉式，静态初始化。
  * @author Administrator
  *
  */
