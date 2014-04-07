@@ -7,5 +7,9 @@ package com.open.design.singleton;
  */
 public enum Singleton7 {
 	INSTANCE;
+	
+	public static Singleton7 getInstance(){  
+        return INSTANCE;  
+    } 
 }
 
