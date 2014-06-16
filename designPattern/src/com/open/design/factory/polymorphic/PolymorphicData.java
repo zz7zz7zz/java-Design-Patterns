@@ -1,6 +1,6 @@
 package com.open.design.factory.polymorphic;
 
-public interface PolymorphicData {
+public class PolymorphicData {
 	
 	
 	//3.抽象产品角色：它是具体产品继承的父类或者是实现的接口。在java中一般有抽象类或者接口来实现。

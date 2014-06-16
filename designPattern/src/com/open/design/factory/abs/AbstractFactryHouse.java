@@ -1,7 +1,7 @@
 package com.open.design.factory.abs;
 
 
-public interface AbstractFactryHouse {
+public class AbstractFactryHouse {
 	
 	
 	//2.抽象产品角色：它一般是具体产品继承的父类或者实现的接口。在java中由接口或者抽象类来实现。
