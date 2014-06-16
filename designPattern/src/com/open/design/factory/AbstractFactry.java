@@ -1,7 +1,7 @@
-package com.open.design.factory.abs;
+package com.open.design.factory;
 
-import com.open.design.factory.abs.AbstractFactryCar.Car;
-import com.open.design.factory.abs.AbstractFactryHouse.House;
+import com.open.design.factory.AbstractFactryCar.Car;
+import com.open.design.factory.AbstractFactryHouse.House;
 
 public class AbstractFactry {
 

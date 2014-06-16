@@ -1,4 +1,4 @@
-package com.open.design.factory.abs;
+package com.open.design.factory;
 
 
 public class AbstractFactryHouse {

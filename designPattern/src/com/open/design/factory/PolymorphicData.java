@@ -1,4 +1,4 @@
-package com.open.design.factory.polymorphic;
+package com.open.design.factory;
 
 public class PolymorphicData {
 	

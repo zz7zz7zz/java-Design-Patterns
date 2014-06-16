@@ -1,6 +1,6 @@
-package com.open.design.factory.simple;
+package com.open.design.factory;
 
-import com.open.design.factory.simple.SimpleFactoryData.Car;
+import com.open.design.factory.SimpleFactoryData.Car;
 
 public class SimpleFactoryTest {
 

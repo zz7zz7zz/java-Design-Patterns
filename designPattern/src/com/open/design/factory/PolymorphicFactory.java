@@ -1,6 +1,6 @@
-package com.open.design.factory.polymorphic;
+package com.open.design.factory;
 
-import com.open.design.factory.polymorphic.PolymorphicData.Car;
+import com.open.design.factory.PolymorphicData.Car;
 
 public class PolymorphicFactory {
 

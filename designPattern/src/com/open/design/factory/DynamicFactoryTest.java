@@ -1,6 +1,6 @@
-package com.open.design.factory.dynamic;
+package com.open.design.factory;
 
-import com.open.design.factory.dynamic.DynamicFactoryData.Car;
+import com.open.design.factory.DynamicFactoryData.Car;
 
 
 

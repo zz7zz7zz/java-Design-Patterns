@@ -1,6 +1,7 @@
-package com.open.design.factory.dynamic;
+package com.open.design.factory;
 
-public class DynamicFactoryData {
+
+public class AbstractFactryCar {
 	
 	
 	//2.抽象产品角色：它一般是具体产品继承的父类或者实现的接口。在java中由接口或者抽象类来实现。
@@ -43,12 +44,4 @@ public class DynamicFactoryData {
 		}
 	}
 }
-
-
-
-
-
-
-
-
 
