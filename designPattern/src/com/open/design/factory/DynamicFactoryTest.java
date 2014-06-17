@@ -11,16 +11,16 @@ public class DynamicFactoryTest {
 	 */
 	public static void main(String[] args) {
 		
-		Car car=DynamicFactory.produce("com.open.design.factory.dynamic.DynamicFactoryData$Benz");
+		Car car=DynamicFactory.produce("com.open.design.factory.DynamicFactoryData$Benz");
 		car.printName();
 	
-		car=DynamicFactory.produce("com.open.design.factory.dynamic.DynamicFactoryData$BMW");
+		car=DynamicFactory.produce("com.open.design.factory.DynamicFactoryData$BMW");
 		car.printName();
 		
-		car=DynamicFactory.produce("com.open.design.factory.dynamic.DynamicFactoryData$Audi");
+		car=DynamicFactory.produce("com.open.design.factory.DynamicFactoryData$Audi");
 		car.printName();
 		
-		car=DynamicFactory.produce("com.open.design.factory.dynamic.DynamicFactoryData$Tesla");
+		car=DynamicFactory.produce("com.open.design.factory.DynamicFactoryData$Tesla");
 		car.printName();
 	}
 

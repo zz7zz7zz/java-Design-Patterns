@@ -17,6 +17,7 @@ public class AbstractFactryTest {
 		
 		car.printName();
 		house.printHouseName();
+		System.out.println();
 		
 		//-------------------
 		dream = new AbstractFactry.DreamBFactory();
@@ -25,7 +26,7 @@ public class AbstractFactryTest {
 		
 		car.printName();
 		house.printHouseName();
-		
+		System.out.println();
 		//-------------------
 		dream = new AbstractFactry.DreamCFactory();
 		car =dream.createCar();
