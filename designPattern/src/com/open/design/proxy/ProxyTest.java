@@ -1,6 +1,7 @@
 package com.open.design.proxy;
 
 import com.open.design.proxy.ProxyData.PostProxy;
+import com.open.design.proxy.ProxyData.PostProxy2;
 import com.open.design.proxy.ProxyData.RealPost;
 
 public class ProxyTest {
@@ -11,12 +12,20 @@ public class ProxyTest {
 		mPost.post();
 		
 		System.out.println();
-		System.out.println("-----------------------------");
+		System.out.println("--------------A---------------");
 		System.out.println();
 		
 		//需要执行额外方法的
 		PostProxy mPostProxy=new PostProxy(mPost);
 		mPostProxy.post();
+		
+		System.out.println();
+		System.out.println("--------------B---------------");
+		System.out.println();
+		
+		//需要执行额外方法的
+		PostProxy2 mPostProxy2=new PostProxy2();
+		mPostProxy2.post();
 	}
 
 }

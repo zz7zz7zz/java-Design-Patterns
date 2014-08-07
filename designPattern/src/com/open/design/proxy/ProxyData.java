@@ -40,5 +40,22 @@ public class ProxyData
 			}
 	}
 	
+	//代理角色2
+	public static class PostProxy2 implements IPost{
+		
+			private IPost mIPost;
+			
+			public PostProxy2()
+			{
+				this.mIPost=new RealPost();
+			}
+			
+			@Override
+			public void post() {
+				System.out.println("---Hi,快递公司2 为您服务---");
+				this.mIPost.post();
+				System.out.println("---Hi,你的快递2 已经帮您寄出---");
+			}
+	}
 }
 
