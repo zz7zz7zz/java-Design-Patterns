@@ -1,8 +1,8 @@
 package com.open.design.proxy;
 
-import com.open.design.proxy.ProxyData.PostProxy;
-import com.open.design.proxy.ProxyData.PostProxy2;
-import com.open.design.proxy.ProxyData.RealPost;
+import com.open.design.proxy.ProxyDef.PostProxy;
+import com.open.design.proxy.ProxyDef.PostProxy2;
+import com.open.design.proxy.ProxyDef.RealPost;
 
 public class ProxyTest {
 
