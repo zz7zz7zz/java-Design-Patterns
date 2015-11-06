@@ -23,7 +23,7 @@ public class CustomObserver {
 		     * 注册观察者对象
 		     * @param observer    观察者对象
 		     */
-		    public void addObserver(IObserver observer){
+		    public synchronized void addObserver(IObserver observer){
 		    	if (observer == null)
 		            throw new NullPointerException();
 		        if (!list.contains(observer)) {
