@@ -1,5 +1,12 @@
 package com.open.design.proxy;
 
+/*
+ 1.RMI远程代理
+ 2.动态代理
+ 3.虚拟代理
+ 4.保护代理
+ 5.其它代理
+ */
 public class ProxyDef
 {
 	
